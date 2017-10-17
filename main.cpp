@@ -25,9 +25,8 @@ using namespace std;
     int x,y,grey;
         for(x=0; x<bmp.size();x++)
         {
-            
-            for(y=0; y<bmp[0].size(); y++)
-            {
+        for(y=0; y<bmp[0].size(); y++)
+        {
         rgb=bmp[x][y];
         grey=(rgb.red+rgb.blue+rgb.green) /3;
         rgb.red=grey;
